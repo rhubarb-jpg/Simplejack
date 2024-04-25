@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <!--android:background="@drawable/img1" -->
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Simple-Jack"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/playButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="139dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:background="#fcba03"
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="10dp"
+
+        android:fontFamily="casual"
+        android:hapticFeedbackEnabled="true"
+
+        android:text="PLAY"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/presence_online"
+        app:iconTint="#F44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/leaderboardButton"
+        android:layout_width="139dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:background="#fcba03"
+        android:fontFamily="casual"
+        android:text="LEADERBOARD"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/settingsButton"
+        android:layout_width="139dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:background="#fcba03"
+        android:fontFamily="casual"
+        android:text="SETTINGS"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leaderboardButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BlackJackApp</string>
+    <string name="hit">HIT</string>
+    <string name="stand">STAND</string>
+    <string name="deal">DEAL</string>
+    <string name="clear">CLEAR</string>
+    <string name="bet">BET :</string>
+    <string name = "noBalance">NO BALANCE</string>
+    <string name="win">YOU WIN</string>
+    <string name="b_deal">DEALER WINS</string>
+    <string name="push">DRAW</string>
+</resources>
